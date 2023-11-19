@@ -13,7 +13,7 @@ public class UsedService {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private Integer quantity;
-    private Float price;
+    private Float totalPrice;
 
     @ManyToOne
     @JoinColumn(name = "service_id")
