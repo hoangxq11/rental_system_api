@@ -3,6 +3,7 @@ package com.demo.rental_system_api.web.dto;
 import lombok.Data;
 
 import java.util.Date;
+import java.util.List;
 
 @Data
 public class MonthBillDto {
@@ -13,6 +14,7 @@ public class MonthBillDto {
     private String note;
 
     private ContractDto contractDto;
+    private List<UsedServiceDto> usedServiceDtoList;
 
     @Data
     public static class UsedServiceDto {

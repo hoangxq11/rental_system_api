@@ -11,6 +11,7 @@ public class CreateMonthBillRequest {
     private Date paymentDate;
     private String note;
     private List<UsedServiceRequest> usedServiceRequests;
+    private Integer contractId;
 
     @Data
     public static class UsedServiceRequest {
